@@ -1,5 +1,5 @@
 <html>
-    <link rel="stylesheet" href="D:\DHIRU\dhiru\code editor\website.css">
+    <link rel="stylesheet" href="D:\code editor\website.css">
      <head>
         <title>  disman
         </title>
@@ -7,19 +7,21 @@
     <body>
         <div class="container"> 
         <header>
-                <img src="cyberD78/additional folder/logo main.png" alt="logo">
-                <slideshow>
-                <ul class="social media icons">
+              
+                
+            <ul class="social media icons">
                 <li><img src="cyberD78/additional folder/facebook.svg" alt="SM icons1"></li>
                 <li><img src="cyberD78/additional folder/insta.svg" alt="SM icons2"></li>
                 <li><img src="cyberD78/additional folder/twitter.svg" alt="SM icons3"></li>
             </ul>
-            </slideshow>
+            <img src="cyberD78/additional folder/logo main.png" alt="logo">
+        </header>   
             <nav>
-                <a href="#" class="hide desktop" ></a>
-                <img src="cyberD78/additional folder/menu.svg" alt="menu" id="menu">
-    
+                
                 <ul class="show-desktop hide mobile" id="nav">
+                    <li><a href="#" class="hide desktop" ></a>
+                        <img src="cyberD78/additional folder/menu.svg" alt="menu" id="menu">
+            </li>
                     <li><a href="#" id="exit" class="exit button hide desktop">
                         <img src="cyberD78/additional folder/exit.svg" alt="exit button">
                     </a>
@@ -32,22 +34,26 @@
                  </ul>
 
             </nav>
-        </header>
+        
         <section>
-            <slideshow>
-            <img src="cyberD78/disater pictures/disaster 2.png">
-            <img src="https://image.cnbcfm.com/api/v1/image/104912016-RTX3K49J.jpg?v=1529452414&w=740&h=416">
-            <img src="https://image.cnbcfm.com/api/v1/image/104891321-RTX3OCDD.jpg?v=1529452409&w=740&h=416">
-            <img src="https://image.cnbcfm.com/api/v1/image/104912378-RTS19IY1.jpg?v=1560217257&w=678&h=381">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjU0kmvOdsApCyRWWG3EZF77DiUbI8AQdvmlYVTZlRMrQrHfA3&usqp=CAU">
-            </slideshow>
+            <div class="slideshow fade">
+            <img src="cyberD78/disater pictures/disaster 2.png" width="75%">
+            <img src="https://image.cnbcfm.com/api/v1/image/104912016-RTX3K49J.jpg?v=1529452414&w=740&h=416" width="75%">
+            <img src="https://image.cnbcfm.com/api/v1/image/104891321-RTX3OCDD.jpg?v=1529452409&w=740&h=416" width="75%">
+            <img src="https://image.cnbcfm.com/api/v1/image/104912378-RTS19IY1.jpg?v=1560217257&w=678&h=381" width="75%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjU0kmvOdsApCyRWWG3EZF77DiUbI8AQdvmlYVTZlRMrQrHfA3&usqp=CAU" width="75%">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+        
         </section>
         </div>
     
     <div class ="facts container">
         <div="container">
             
-            <IMG SRC="cyberD78/additional folder/idea bulb.svg">
+            <IMG SRC="cyberD78/additional folder/idea bulb.svg" class="bulb">
             <h4>INTERSTING FACTS</h4>
             <P>Almost 15 acres of land has been burnt to ground in the Australian wildfires.</P>
         </div>
@@ -59,7 +65,7 @@
         </div>
     </div>
     <div class="information box">
-        <div class="container">
+        <div class="lib">
             <ul>
             <h4>ABOUT US</h4>
             <P>
@@ -90,7 +96,7 @@
     </div>
     <footer>
         <div="container">
-            <UL>
+            <UL class="footer links3">
                 <h4>MAIL US</h4>
                 <p> We are ready for your opinions and help on
                     <a href="#">adobexd@mail.com></a></p></UL>
